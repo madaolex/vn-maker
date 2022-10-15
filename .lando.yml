@@ -5,4 +5,4 @@ config:
   via: nginx
   database: mysql
   cache: redis
-  webroot: app/public
+  webroot: ./public
