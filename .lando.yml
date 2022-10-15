@@ -1,0 +1,8 @@
+name: vn-maker
+recipe: laravel
+config:
+  php: '8.1'
+  via: nginx
+  database: mysql
+  cache: redis
+  webroot: app/public
