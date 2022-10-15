@@ -5,4 +5,10 @@ config:
   via: nginx
   database: mysql
   cache: redis
+  xdebug: true
   webroot: ./public
+  config:
+    php: .lando/php.ini
+services:
+  database:
+    portforward: 3307
